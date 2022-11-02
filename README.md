@@ -78,3 +78,9 @@ docker container ls
 docker container stop postgres-nest
 docker container rm postgres-nest
 ```
+
+```CLI
+nest g module auth
+nest g service auth --no-spec
+nest g controller auth --no-spec
+```
