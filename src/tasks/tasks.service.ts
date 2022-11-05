@@ -14,7 +14,7 @@ import { User } from 'src/auth/user.entity';
 
 @Injectable()
 export class TasksService {
-  private logger = new Logger('TasksService', true);
+  private logger = new Logger('TasksService');
 
   constructor(
     @InjectRepository(Task)
